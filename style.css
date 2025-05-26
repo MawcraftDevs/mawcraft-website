@@ -291,3 +291,19 @@ blockquote {
    width: 600px;
     height: auto;
 }
+
+.link-button {
+  background-color: #dc3545; /* red */
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px; /* some space between buttons */
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #c82333; /* darker red */
+}
