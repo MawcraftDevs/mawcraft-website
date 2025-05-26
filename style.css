@@ -138,7 +138,7 @@ blockquote {
   text-align: center;
   border-bottom: 4px solid #0b1516;
   }
-  
+
 /* For the link to the page you're currently on. */
 .navigation .current-page {
   background: #b3dec5;
@@ -283,4 +283,11 @@ blockquote {
   .main-inner a {
     color: #4cde3e;
     }
+}
+
+.centered-image {
+  display: block;      /* Makes the image a block element */
+  margin: 0 auto 20px; /* Centers it horizontally + 20px margin below */
+   width: 600px;
+    height: auto;
 }
